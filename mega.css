@@ -1,4 +1,228 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.redes-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.redes-left nav{
+    display: flex;
+}
+
+.redes-left nav ul, li{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-left nav a{
+    display: block;
+    padding: 7px;
+}
+
+.redes-left nav .active,
+.active:hover{
+    display: block;
+    color: turquoise;
+}
+
+.redes-right{
+    display: flex;
+    align-items: center;
+}
+
+.redes-right nav {
+    display: flex;
+}
+
+.redes-right nav ul, li{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-right nav a{
+    display: block;
+    padding: 5px;
+}
+
+
+.for{
+    display: flex;
+    align-items: center;
+}
+
+.for input{
+    border: 1px solid white;
+    height: 30px;
+}
+
+.for button{
+    background-color: white;
+    border: 1px solid white;
+    width: 25px;
+    height: 30px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+}
+
+.titulo-pub{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo-pub-conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo-pub-conteudo-h1{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+}
+
+.titulo-pub-conteudo-h1 h1{
+    color: red;
+    font-size: 40px;
+}
+
+.titulo-pub-conteudo-banner{
+    display: flex;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+    flex: 2;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 90%;
+    background-color: red;
+}
+
+.banner h1{
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    height: 40px;
+    background-color: red;
+}
+
+.menu1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-contenu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.menu-contenu nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu-contenu nav ul, li{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+}
+
+.menu-contenu nav a{
+    display: block;
+    padding: 12px;
+    color: white;
+}
+
+.act{
+    display: flex;
+    background-color: rgb(160, 6, 6);
+    padding: 0px;
+    margin: 0px;
+}
+
+#general{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    background-color: rgb(185, 183, 183);
+}
+
+.ultima-noticia{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(185, 183, 183);
+}
+
+.ultima-noticia1{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+}
+
+.ultima-noticia-ultima{
+    display: flex;
+    width: 200px;
+    background-color: red;
+}
+
+.ultima-noticia-texto{
+    display: flex;
+    flex: 1;
+    
 }
