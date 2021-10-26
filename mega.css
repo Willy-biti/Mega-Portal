@@ -196,16 +196,15 @@ header{
 
 #general{
     display: flex;
-    height: 800px;
+    height: 50px;
     justify-content: center;
-    background-color: rgb(185, 183, 183);
+    background-color: rgb(226, 224, 224);
 }
 
 .ultima-noticia{
     display: flex;
     align-items: center;
     height: 50px;
-    background-color: rgb(185, 183, 183);
 }
 
 .ultima-noticia1{
@@ -217,12 +216,106 @@ header{
 
 .ultima-noticia-ultima{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     background-color: red;
 }
 
+.ultima-noticia-ultima h1{
+    font-size: 15px;
+}
+
 .ultima-noticia-texto{
     display: flex;
+    align-items: center;
     flex: 1;
     
+}
+
+.ultima-noticia-texto p{
+    margin-left: 10px;
+    color: grey;
+    font-size: 15px;
+}
+
+#corps{
+    display: flex;
+    justify-content: center;
+    height: 1500px;
+    background-color: rgb(226, 224, 224);
+}
+
+.corps-con section{
+    display: flex;
+    flex: 2;
+    
+}
+
+.corps-con aside{
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin-left: 10px;
+}
+
+section .foto-banners{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-banners-principal{
+    display: flex;
+    flex: 1;
+    background-image: url(https://image.freepik.com/psd-gratuitas/modelo-de-web-de-banner-de-treinamento-de-boxe_23-2148578718.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.foto-banners-second{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 15px;
+}
+
+.foto-banners-second-titre{
+    display: flex;
+    height: 8%;
+    background-color: white;
+    border: 1px solid rgb(192, 188, 188);
+    margin-bottom: 5px;
+}
+
+.foto-banners-second-pubtext{
+    display: flex;
+    height: 92%;
+}
+
+.foto-banners-second-pub{
+    display: flex;
+    flex: 2;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid rgb(192, 188, 188);
+}
+
+.foto-banners-second-txt{
+    display: flex;
+    flex: 1;
+    background-color: white;
+    border: 1px solid rgb(192, 188, 188);
+}
+
+.foto-banners-terceira{
+    display: flex;
+    flex: 1;
+    background-color: white;
+}
+
+.foto-banners-terceira{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 15px;
 }
