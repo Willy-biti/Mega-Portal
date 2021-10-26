@@ -281,10 +281,16 @@ section .foto-banners{
 
 .foto-banners-second-titre{
     display: flex;
+    align-items: center;
     height: 8%;
     background-color: white;
     border: 1px solid rgb(192, 188, 188);
     margin-bottom: 5px;
+}
+
+.foto-banners-second-titre h3{
+    margin-left: 10px;
+    color: grey;
 }
 
 .foto-banners-second-pubtext{
@@ -295,9 +301,58 @@ section .foto-banners{
 .foto-banners-second-pub{
     display: flex;
     flex: 2;
+    flex-direction: column;
     margin-right: 10px;
     background-color: white;
     border: 1px solid rgb(192, 188, 188);
+}
+
+.foto-banners-second-pub-img{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.foto-banners-second-pub-img-1{
+    display: flex;
+    margin: 5px;
+    flex: 1;
+}
+
+.foto-banners-second-pub-img-2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 5px;
+    color: black;
+}
+
+.foto-banners-second-pub-img-2 h3{
+    font-size: 25px;
+    color: black;
+}
+
+.date{
+    display: flex;
+    
+}
+
+.date-p{
+    margin-right: 30px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.msg{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.msg a{
+    color: blue;
 }
 
 .foto-banners-second-txt{
