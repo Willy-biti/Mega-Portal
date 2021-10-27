@@ -122,6 +122,7 @@ header{
 .titulo-pub-conteudo-h1 h1{
     color: red;
     font-size: 40px;
+    text-shadow: 1px 5px 2px black;
 }
 
 .titulo-pub-conteudo-banner{
@@ -144,6 +145,7 @@ header{
 
 .banner h1{
     font-size: 30px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .menu{
@@ -277,14 +279,16 @@ section .foto-banners{
     flex-direction: column;
     flex: 1;
     margin-top: 15px;
+    background-color: white;
+    border: 1px solid rgb(192, 188, 188);
 }
 
 .foto-banners-second-titre{
     display: flex;
     align-items: center;
     height: 8%;
-    background-color: white;
-    border: 1px solid rgb(192, 188, 188);
+    background-color: rgba(212, 208, 208, 0.333);
+    /* border: 1px solid rgb(192, 188, 188); */
     margin-bottom: 5px;
 }
 
@@ -304,7 +308,7 @@ section .foto-banners{
     flex-direction: column;
     margin-right: 10px;
     background-color: white;
-    border: 1px solid rgb(192, 188, 188);
+    
 }
 
 .foto-banners-second-pub-img{
@@ -318,6 +322,7 @@ section .foto-banners{
     display: flex;
     margin: 5px;
     flex: 1;
+    border: 1px solid rgb(192, 188, 188);
 }
 
 .foto-banners-second-pub-img-2{
@@ -360,7 +365,7 @@ section .foto-banners{
     flex-direction: column;
     flex: 2;
     background-color: white;
-    border: 1px solid rgb(192, 188, 188);
+    /* border: 1px solid rgb(192, 188, 188); */
     height: 80%;
 }
 
@@ -369,13 +374,14 @@ section .foto-banners{
     justify-content: space-between;
     flex: 1;
     margin: 5px;
-    border: 1px solid grey;
+    margin-right: 10px;
+    /* border: 1px solid grey; */
 }
 
 .foto-banners-second-txt1-foto{
     display: flex;
     flex: 1;
-    background-color: khaki;
+    border: 1px solid rgb(192, 188, 188);
 }
 
 .foto-banners-second-txt1-text{
@@ -383,13 +389,14 @@ section .foto-banners{
     flex: 2;
     flex-direction: column;
     width: 100%;
-
+    margin-right: 10px;
 }
 
 .foto-banners-second-txt1-text h4{
     display: flex;
     color: black;
     margin-left: 5px;
+    margin-right: 10px;
 }
 
 .foto-banners-second-txt1-text-data{
@@ -398,21 +405,27 @@ section .foto-banners{
 
 .data-p{
     color: grey;
-    font-size: 11px;
-    margin-top: 10px;
+    font-size: 7px;
+    margin-top: 25px;
     margin-left: 5px;
-    margin-right: 2px;
-}
-
-.foto-banners-terceira{
-    display: flex;
-    flex: 1;
-    background-color: white;
+    margin-right: 15px;
 }
 
 .foto-banners-terceira{
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color: white;
     margin-top: 15px;
 }
+
+.foto-banners-terceira .foto-banners-second-pub{
+    display: flex;
+    flex: 1;
+}
+
+.foto-banners-terceira .foto-banners-second-txt{
+    display: flex;
+    flex: 1;
+}
+
