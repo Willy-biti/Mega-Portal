@@ -254,13 +254,6 @@ header{
     
 }
 
-.corps-con aside{
-    display: flex;
-    flex: 1;
-    background-color: white;
-    margin-left: 10px;
-}
-
 section .foto-banners{
     display: flex;
     flex-direction: column;
@@ -429,3 +422,24 @@ section .foto-banners{
     flex: 1;
 }
 
+aside {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.corpo-aside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.corpos-1{
+    display: flex;
+    flex: 1;
+    background-color: rgb(190, 58, 58);
+    flex-direction: column;
+}
+
+/* Continuação */
