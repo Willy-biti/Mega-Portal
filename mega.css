@@ -263,9 +263,13 @@ section .foto-banners{
 .foto-banners-principal{
     display: flex;
     flex: 1;
-    background-image: url(https://image.freepik.com/psd-gratuitas/modelo-de-web-de-banner-de-treinamento-de-boxe_23-2148578718.jpg);
+    /* background-image: url(https://image.freepik.com/psd-gratuitas/modelo-de-web-de-banner-de-treinamento-de-boxe_23-2148578718.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+}
+
+.foto-banners-principal img{
+    width: 100%;
 }
 
 .foto-banners-second{
@@ -760,4 +764,16 @@ height: 75%;
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+}
+
+.botao-subir{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(240, 6, 6);
+    bottom: 40px;
+    position: fixed;
+    right: 30px;
+    border: none;
+    border-radius: 30px;
+    display: none;
 }
